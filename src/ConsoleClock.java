@@ -1,7 +1,7 @@
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-public class ConsoleClock extends Thread implements Runnable{
+public class ConsoleClock extends Thread{
 
     Calendar time;
     SimpleDateFormat sTime;
